@@ -84,10 +84,22 @@ body {
     body {
         background-size: 60%;
     }
-    .annually,
-    .monthly {
-        margin: 1px;
-    }
+}
+
+.card {
+    padding: 2em 2em;
+    width: 300px;
+}
+
+.card-left,
+.card-right {
+    background-color: white;
+    text-align: center;
+    color: rgb(99, 97, 97);
+}
+
+.card:nth-child(2) {
+    padding-top: 46px;
 }
 
 .d-flex {
@@ -98,7 +110,7 @@ body {
 .switch {
     position: relative;
     display: inline-block;
-    width: 45px;
+    width: 50px;
     height: 25px;
 }
 
@@ -125,7 +137,7 @@ body {
     position: absolute;
     cursor: pointer;
     top: 0;
-    left: -5px;
+    left: 0px;
     right: -0.5px;
     bottom: 0;
     background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
@@ -205,22 +217,6 @@ input:hover+.slider {
     color: rgb(79, 79, 79);
 }
 
-.card {
-    padding: 2em 2em;
-    width: 250px;
-}
-
-.card-left,
-.card-right {
-    background-color: white;
-    text-align: center;
-    color: rgb(99, 97, 97);
-}
-
-.card:nth-child(2) {
-    padding-top: 46px;
-}
-
 .mt-10 {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -242,6 +238,10 @@ h4:first-child {
 
 h4:nth-child(6) {
     border-bottom: 1px solid rgb(214, 205, 205);
+}
+
+button {
+    margin-top: 10px;
 }
 
 .btn-outside {
@@ -293,4 +293,11 @@ h4:nth-child(6) {
 
 .text-title {
     font-size: 30px;
+    color: rgb(98, 98, 98);
+}
+
+.dolla {
+    font-size: 32.5px;
+    vertical-align: 15%;
+    margin-right: 7px;
 }
