@@ -148,7 +148,7 @@ body {
 .slider {
     position: absolute;
     cursor: pointer;
-    top: 0;
+    top: 0px;
     left: 0px;
     right: -0.5px;
     bottom: 0;
@@ -162,8 +162,8 @@ body {
     content: "";
     height: 20px;
     width: 20px;
-    left: 2.5px;
-    bottom: 3px;
+    left: 2px;
+    bottom: 2.2px;
     background-color: white;
     -webkit-transition: 0.4s;
     transition: 0.4s;
@@ -204,7 +204,8 @@ input:hover+.slider {
 
 .title {
     text-align: center;
-    margin: 50px;
+    margin-top: 45px;
+    margin-bottom: 55px;
     color: #595959;
 }
 
@@ -258,7 +259,7 @@ button {
 
 .btn-outside {
     width: 100%;
-    height: 37px;
+    height: 43px;
     border-radius: 5px;
     border: none;
     background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
@@ -273,7 +274,7 @@ button {
 
 .btn-inside {
     width: 100%;
-    height: 37px;
+    height: 43px;
     border-radius: 5px;
     border: none;
     background-color: white;
@@ -289,7 +290,7 @@ button {
     background-image: none;
     background-color: white;
     color: hsl(237, 63%, 64%);
-    border: 1px solid rgb(59, 59, 59);
+    border: 1px solid rgb(132, 132, 132);
 }
 
 .btn-inside:hover {
