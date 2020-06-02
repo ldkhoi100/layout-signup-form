@@ -12,45 +12,45 @@ function submitForm() {
         document.getElementById("icon_error1").style.display = "block";
         document.getElementById("note1").style.display = "block";
         document.getElementById("note1").innerHTML = "First Name cannot be empty";
-        document.getElementById("First_Name").style.border = "2px solid red";
+        document.getElementById("First_Name").style.border = "1.5px solid red";
     } else {
         document.getElementById("icon_error1").style.display = "none";
         document.getElementById("note1").style.display = "none";
-        document.getElementById("First_Name").style.border = "2px solid green";
+        document.getElementById("First_Name").style.border = "1.5px solid green";
     }
     if (lastName === "") {
         document.getElementById("icon_error2").style.display = "block";
         document.getElementById("note2").style.display = "block";
         document.getElementById("note2").innerHTML = "Last Name cannot be empty";
-        document.getElementById("Last_Name").style.border = "2px solid red";
+        document.getElementById("Last_Name").style.border = "1.5px solid red";
     } else {
         document.getElementById("icon_error2").style.display = "none";
         document.getElementById("note2").style.display = "none";
-        document.getElementById("Last_Name").style.border = "2px solid green";
+        document.getElementById("Last_Name").style.border = "1.5px solid green";
     }
     if (email === "") {
         document.getElementById("icon_error3").style.display = "block";
         document.getElementById("note3").style.display = "block";
         document.getElementById("note3").innerHTML = "Email Address cannot be empty";
-        document.getElementById("email").style.border = "2px solid red";
+        document.getElementById("email").style.border = "1.5px solid red";
     } else if (!validateEmail(email)) {
         document.getElementById("icon_error3").style.display = "block";
         document.getElementById("note3").style.display = "block";
         document.getElementById("note3").innerHTML = "Looks like this is not an email";
-        document.getElementById("email").style.border = "2px solid red";
+        document.getElementById("email").style.border = "1.5px solid red";
     } else {
         document.getElementById("icon_error3").style.display = "none";
         document.getElementById("note3").style.display = "none";
-        document.getElementById("email").style.border = "2px solid green";
+        document.getElementById("email").style.border = "1.5px solid green";
     }
     if (pass === "") {
         document.getElementById("icon_error4").style.display = "block";
         document.getElementById("note4").style.display = "block";
         document.getElementById("note4").innerHTML = "Password cannot be empty";
-        document.getElementById("password").style.border = "2px solid red";
+        document.getElementById("password").style.border = "1.5px solid red";
     } else {
         document.getElementById("icon_error4").style.display = "none";
         document.getElementById("note4").style.display = "none";
-        document.getElementById("password").style.border = "2px solid green";
+        document.getElementById("password").style.border = "1.5px solid green";
     }
 }
