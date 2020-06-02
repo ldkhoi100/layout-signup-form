@@ -130,7 +130,8 @@ input {
 }
 
 input:focus {
-    border: 1.5px solid purple;
+    outline: none !important;
+    border: 1.5px solid purple !important;
 }
 
 .button-try-free {
